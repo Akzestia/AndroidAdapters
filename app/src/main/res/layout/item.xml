@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/cardlayout">
+
+        <TextView
+            android:id="@+id/cardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="**** **** **** 3245"
+            android:textColor="#031952"
+            android:textSize="25sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="30dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available Balance"
+            android:textColor="@android:color/white"
+            android:textSize="13sp"
+            android:layout_marginTop="95dp"
+            android:layout_marginStart="30dp">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/cardBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$2,220"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="117dp"
+            android:layout_marginStart="30dp"
+            >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/typeHolder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/visa">
+        </ImageView>
+    </RelativeLayout>
+</RelativeLayout>
